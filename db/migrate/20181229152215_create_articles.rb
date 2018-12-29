@@ -3,7 +3,7 @@ class CreateArticles < ActiveRecord::Migration[5.2]
     create_table :articles do |t|
       t.string :title
       t.string :body
-      t.to_datetime :published_at
+      t.datetime :published_at
 
       t.timestamps
     end
